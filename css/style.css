@@ -8,6 +8,7 @@
 header {
     text-align: right;
     position: fixed;
+    right: 0;
     /* background-color: green; */
 }
 
