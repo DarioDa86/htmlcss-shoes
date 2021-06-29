@@ -4,11 +4,14 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 /* Header */
 header {
-    text-align: right;
     position: fixed;
     right: 0;
+    z-index: 3;
     /* background-color: green; */
 }
 
@@ -35,6 +38,7 @@ a {
 /* sezioni */
 .bg-section {
     height: 100vh;
+    position: relative;
 }
 
 #scarpa-1 {
@@ -47,4 +51,11 @@ a {
 
 #scarpa-3 {
     background-color: yellow;
+}
+
+.container1, .container2, .container3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
